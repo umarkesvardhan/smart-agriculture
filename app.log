@@ -1,0 +1,358 @@
+2025-07-08 12:15:56,856 - ERROR - Error loading models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-08 12:15:56,856 - ERROR - Failed to load models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-13 13:17:47,086 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:17:47,098 - INFO - All models loaded successfully
+2025-07-13 13:17:47,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-13 13:17:47,136 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 13:17:47,136 - INFO -  * Restarting with stat
+2025-07-13 13:17:59,073 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:17:59,101 - INFO - All models loaded successfully
+2025-07-13 13:17:59,145 - WARNING -  * Debugger is active!
+2025-07-13 13:17:59,160 - INFO -  * Debugger PIN: 107-640-891
+2025-07-13 13:18:05,044 - INFO - 192.168.1.4 - - [13/Jul/2025 13:18:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 13:18:05,298 - INFO - 192.168.1.4 - - [13/Jul/2025 13:18:05] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-07-13 13:18:05,305 - INFO - 192.168.1.4 - - [13/Jul/2025 13:18:05] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-07-13 13:18:05,433 - INFO - 192.168.1.4 - - [13/Jul/2025 13:18:05] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-07-13 13:18:40,071 - INFO -  * Detected change in 'd:\\agriculture project\\smart-agriculture\\smart-agriculture\\migrations\\env.py', reloading
+2025-07-13 13:18:41,097 - INFO -  * Restarting with stat
+2025-07-13 13:19:47,547 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:19:47,591 - INFO - All models loaded successfully
+2025-07-13 13:19:47,664 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-13 13:19:47,664 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 13:19:47,670 - INFO -  * Restarting with stat
+2025-07-13 13:20:04,545 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:20:04,600 - INFO - All models loaded successfully
+2025-07-13 13:20:04,648 - WARNING -  * Debugger is active!
+2025-07-13 13:20:04,673 - INFO -  * Debugger PIN: 107-640-891
+2025-07-13 13:20:06,214 - INFO - 127.0.0.1 - - [13/Jul/2025 13:20:06] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 13:20:06,581 - INFO - 127.0.0.1 - - [13/Jul/2025 13:20:06] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-13 13:20:06,581 - INFO - 127.0.0.1 - - [13/Jul/2025 13:20:06] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-13 13:20:06,735 - INFO - 127.0.0.1 - - [13/Jul/2025 13:20:06] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=mcZRcjk0GAa6e62wavt4 HTTP/1.1" 200 -
+2025-07-13 13:20:06,806 - INFO - 127.0.0.1 - - [13/Jul/2025 13:20:06] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-07-13 13:43:21,135 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:43:21,185 - INFO - All models loaded successfully
+2025-07-13 13:43:21,296 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-13 13:43:21,298 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-13 13:43:21,301 - INFO -  * Restarting with stat
+2025-07-13 13:43:36,232 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-13 13:43:36,264 - INFO - All models loaded successfully
+2025-07-13 13:43:36,320 - WARNING -  * Debugger is active!
+2025-07-13 13:43:36,331 - INFO -  * Debugger PIN: 107-640-891
+2025-07-13 13:43:52,064 - INFO - 192.168.1.4 - - [13/Jul/2025 13:43:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-13 13:43:52,284 - INFO - 192.168.1.4 - - [13/Jul/2025 13:43:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-13 13:43:52,284 - INFO - 192.168.1.4 - - [13/Jul/2025 13:43:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-13 21:33:11,528 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-13 21:33:11,528 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-13 22:20:06,891 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-13 22:20:06,891 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-13 22:35:13,713 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-13 22:35:13,713 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-13 22:37:24,235 - ERROR - Error loading models: node array from the pickle has an incompatible dtype:
+- expected: [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+- got     : {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+2025-07-13 22:37:24,235 - ERROR - Failed to load models: node array from the pickle has an incompatible dtype:
+- expected: [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+- got     : {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+2025-07-13 23:03:21,839 - ERROR - Error loading models: node array from the pickle has an incompatible dtype:
+- expected: [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+- got     : {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+2025-07-13 23:03:21,840 - ERROR - Failed to load models: node array from the pickle has an incompatible dtype:
+- expected: [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+- got     : {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+2025-07-13 23:06:41,715 - ERROR - Error loading models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-13 23:06:41,715 - ERROR - Failed to load models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-13 23:08:44,349 - ERROR - Error loading models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-13 23:08:44,351 - ERROR - Failed to load models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-14 18:40:41,712 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 18:40:41,712 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 18:50:12,895 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 18:50:12,895 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 18:56:45,407 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 18:56:45,407 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 18:57:11,450 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 18:57:11,450 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 18:57:57,209 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 18:57:57,209 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 19:10:45,118 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 19:10:45,119 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 19:18:44,332 - ERROR - Model loading error: No module named 'numpy._core'
+2025-07-14 19:21:18,426 - ERROR - Model loading error: No module named 'numpy._core'
+2025-07-14 19:24:38,595 - ERROR - Model loading error: No module named 'numpy._core'
+2025-07-14 19:31:32,665 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-14 19:31:32,674 - INFO - Models loaded successfully.
+2025-07-14 19:31:32,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-14 19:31:32,710 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 19:31:32,712 - INFO -  * Restarting with stat
+2025-07-14 19:31:48,896 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-14 19:31:48,901 - INFO - Models loaded successfully.
+2025-07-14 19:31:48,931 - WARNING -  * Debugger is active!
+2025-07-14 19:31:48,938 - INFO -  * Debugger PIN: 635-368-810
+2025-07-14 19:31:49,165 - INFO - 127.0.0.1 - - [14/Jul/2025 19:31:49] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-14 19:31:49,284 - INFO - 127.0.0.1 - - [14/Jul/2025 19:31:49] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-14 19:31:49,287 - INFO - 127.0.0.1 - - [14/Jul/2025 19:31:49] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-14 19:31:49,346 - INFO - 127.0.0.1 - - [14/Jul/2025 19:31:49] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=NI4UPsVer0zmFlNvjxNt HTTP/1.1" 200 -
+2025-07-14 19:32:29,465 - INFO - 192.168.1.4 - - [14/Jul/2025 19:32:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-14 19:32:29,518 - INFO - 192.168.1.4 - - [14/Jul/2025 19:32:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-14 19:32:29,528 - INFO - 192.168.1.4 - - [14/Jul/2025 19:32:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-14 19:35:08,062 - INFO -  * Detected change in 'd:\\agriculture project\\smart-agriculture\\smart-agriculture\\app.py', reloading
+2025-07-14 19:35:09,002 - INFO -  * Restarting with stat
+2025-07-14 19:44:34,077 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 19:44:34,077 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 19:57:20,425 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 19:57:20,425 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:11:46,772 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:11:46,772 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:20:21,756 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:20:21,756 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:20:21,814 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-14 20:20:21,814 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 20:20:21,822 - INFO -  * Restarting with stat
+2025-07-14 20:20:38,338 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:20:38,338 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:20:38,380 - WARNING -  * Debugger is active!
+2025-07-14 20:20:38,390 - INFO -  * Debugger PIN: 115-495-099
+2025-07-14 20:20:39,875 - INFO - 127.0.0.1 - - [14/Jul/2025 20:20:39] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-14 20:20:40,094 - INFO - 127.0.0.1 - - [14/Jul/2025 20:20:40] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-14 20:20:40,094 - INFO - 127.0.0.1 - - [14/Jul/2025 20:20:40] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-14 20:20:40,163 - INFO - 127.0.0.1 - - [14/Jul/2025 20:20:40] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=yJ0jckVBzp1sTFuXFdFx HTTP/1.1" 200 -
+2025-07-14 20:27:42,682 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:27:42,684 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:27:42,776 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-14 20:27:42,776 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 20:27:42,784 - INFO -  * Restarting with stat
+2025-07-14 20:27:56,258 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:27:56,258 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:27:56,307 - WARNING -  * Debugger is active!
+2025-07-14 20:27:56,323 - INFO -  * Debugger PIN: 115-495-099
+2025-07-14 20:27:56,881 - INFO - 127.0.0.1 - - [14/Jul/2025 20:27:56] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-14 20:27:57,058 - INFO - 127.0.0.1 - - [14/Jul/2025 20:27:57] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-14 20:27:57,058 - INFO - 127.0.0.1 - - [14/Jul/2025 20:27:57] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-14 20:27:57,112 - INFO - 127.0.0.1 - - [14/Jul/2025 20:27:57] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=C2IG7N8xaEBd82XkT6c0 HTTP/1.1" 200 -
+2025-07-14 20:33:11,540 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:33:11,540 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:33:11,625 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-14 20:33:11,625 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 20:33:11,641 - INFO -  * Restarting with stat
+2025-07-14 20:33:24,713 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:33:24,713 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:33:24,757 - WARNING -  * Debugger is active!
+2025-07-14 20:33:24,772 - INFO -  * Debugger PIN: 115-495-099
+2025-07-14 20:36:13,356 - INFO - 127.0.0.1 - - [14/Jul/2025 20:36:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-14 20:36:13,452 - INFO - 127.0.0.1 - - [14/Jul/2025 20:36:13] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-14 20:36:13,452 - INFO - 127.0.0.1 - - [14/Jul/2025 20:36:13] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-14 20:36:13,495 - INFO - 127.0.0.1 - - [14/Jul/2025 20:36:13] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=d2N2ckAgswbVq2mSgOuS HTTP/1.1" 200 -
+2025-07-14 20:48:56,992 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:48:56,992 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:48:57,074 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-14 20:48:57,076 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 20:48:57,076 - INFO -  * Restarting with stat
+2025-07-14 20:49:09,105 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 20:49:09,111 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 20:49:09,143 - WARNING -  * Debugger is active!
+2025-07-14 20:49:09,158 - INFO -  * Debugger PIN: 115-495-099
+2025-07-14 20:49:32,354 - INFO - 127.0.0.1 - - [14/Jul/2025 20:49:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-14 20:49:32,443 - INFO - 127.0.0.1 - - [14/Jul/2025 20:49:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-14 20:49:32,443 - INFO - 127.0.0.1 - - [14/Jul/2025 20:49:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-14 20:49:32,489 - INFO - 127.0.0.1 - - [14/Jul/2025 20:49:32] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=NW0UrAKSQ7EVu7Uuc0WG HTTP/1.1" 200 -
+2025-07-14 21:02:53,823 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 21:02:53,823 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 21:02:53,895 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-14 21:02:53,895 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 21:02:53,903 - INFO -  * Restarting with stat
+2025-07-14 21:03:07,601 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 21:03:07,615 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 21:03:07,667 - WARNING -  * Debugger is active!
+2025-07-14 21:03:07,673 - INFO -  * Debugger PIN: 115-495-099
+2025-07-14 21:03:08,271 - INFO - 127.0.0.1 - - [14/Jul/2025 21:03:08] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-14 21:03:08,451 - INFO - 127.0.0.1 - - [14/Jul/2025 21:03:08] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-14 21:03:08,451 - INFO - 127.0.0.1 - - [14/Jul/2025 21:03:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-14 21:03:08,506 - INFO - 127.0.0.1 - - [14/Jul/2025 21:03:08] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=dVEDRkN2lbmqUWw3tS1o HTTP/1.1" 200 -
+2025-07-14 21:19:25,742 - INFO -  * Detected change in 'd:\\agriculture project\\smart-agriculture\\smart-agriculture\\app.py', reloading
+2025-07-14 21:19:27,093 - INFO -  * Restarting with stat
+2025-07-14 21:19:59,461 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 21:19:59,461 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 21:19:59,553 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-14 21:19:59,553 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-14 21:19:59,553 - INFO -  * Restarting with stat
+2025-07-14 21:20:13,687 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 21:20:13,687 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-14 21:20:13,736 - WARNING -  * Debugger is active!
+2025-07-14 21:20:13,753 - INFO -  * Debugger PIN: 115-495-099
+2025-07-14 21:20:14,340 - INFO - 192.168.1.4 - - [14/Jul/2025 21:20:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-14 21:20:14,620 - INFO - 192.168.1.4 - - [14/Jul/2025 21:20:14] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-14 21:20:14,620 - INFO - 192.168.1.4 - - [14/Jul/2025 21:20:14] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-14 21:21:13,696 - INFO -  * Detected change in 'd:\\agriculture project\\smart-agriculture\\smart-agriculture\\app.py', reloading
+2025-07-14 21:21:14,563 - INFO -  * Restarting with stat
+2025-07-14 21:21:28,618 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-14 21:21:28,621 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-15 19:05:08,393 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-15 19:05:08,394 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-15 19:23:20,494 - ERROR - Error loading models: No module named 'sklearn'
+2025-07-15 19:23:20,494 - ERROR - Failed to load models: No module named 'sklearn'
+2025-07-15 19:26:56,242 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 19:26:56,255 - INFO - All models loaded successfully
+2025-07-15 19:26:56,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-15 19:26:56,308 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 19:26:56,308 - INFO -  * Restarting with stat
+2025-07-15 19:27:18,328 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 19:27:18,353 - INFO - All models loaded successfully
+2025-07-15 19:27:18,400 - WARNING -  * Debugger is active!
+2025-07-15 19:27:18,409 - INFO -  * Debugger PIN: 685-090-452
+2025-07-15 19:27:19,025 - INFO - 127.0.0.1 - - [15/Jul/2025 19:27:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-15 19:27:19,193 - INFO - 127.0.0.1 - - [15/Jul/2025 19:27:19] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-15 19:27:19,193 - INFO - 127.0.0.1 - - [15/Jul/2025 19:27:19] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-15 19:27:19,247 - INFO - 127.0.0.1 - - [15/Jul/2025 19:27:19] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=hyCoQbHiNqXto3yLlmjN HTTP/1.1" 200 -
+2025-07-15 19:31:06,995 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 19:31:07,034 - INFO - All models loaded successfully
+2025-07-15 19:31:07,103 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-15 19:31:07,113 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 19:31:07,117 - INFO -  * Restarting with stat
+2025-07-15 19:31:26,211 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 19:31:26,256 - INFO - All models loaded successfully
+2025-07-15 19:31:26,296 - WARNING -  * Debugger is active!
+2025-07-15 19:31:26,313 - INFO -  * Debugger PIN: 685-090-452
+2025-07-15 19:31:27,352 - INFO - 192.168.1.4 - - [15/Jul/2025 19:31:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-15 19:31:27,589 - INFO - 192.168.1.4 - - [15/Jul/2025 19:31:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-15 19:31:27,592 - INFO - 192.168.1.4 - - [15/Jul/2025 19:31:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-15 19:34:29,174 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 19:34:29,189 - INFO - All models loaded successfully
+2025-07-15 19:34:29,245 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2025-07-15 19:34:29,245 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 19:34:29,245 - INFO -  * Restarting with stat
+2025-07-15 19:34:51,498 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-07-15 19:34:51,534 - INFO - All models loaded successfully
+2025-07-15 19:34:51,569 - WARNING -  * Debugger is active!
+2025-07-15 19:34:51,580 - INFO -  * Debugger PIN: 685-090-452
+2025-07-15 19:34:52,562 - INFO - 127.0.0.1 - - [15/Jul/2025 19:34:52] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-15 19:34:52,820 - INFO - 127.0.0.1 - - [15/Jul/2025 19:34:52] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-15 19:34:52,820 - INFO - 127.0.0.1 - - [15/Jul/2025 19:34:52] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-15 19:34:52,931 - INFO - 127.0.0.1 - - [15/Jul/2025 19:34:52] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=tIYr8HcW1IGo1X8crjyN HTTP/1.1" 200 -
+2025-07-15 19:54:10,045 - ERROR - Error loading models: No module named 'numpy._core'
+2025-07-15 19:54:10,045 - ERROR - Failed to load models: No module named 'numpy._core'
+2025-07-15 20:54:06,883 - ERROR - Error loading models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-15 20:54:06,883 - ERROR - Failed to load models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-15 20:54:28,824 - ERROR - Error loading models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-15 20:54:28,824 - ERROR - Failed to load models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-15 20:58:25,170 - ERROR - Error loading models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-15 20:58:25,175 - ERROR - Failed to load models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-15 21:24:46,604 - ERROR - Error loading models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-15 21:24:46,604 - ERROR - Failed to load models: Error when deserializing class 'InputLayer' using config={'batch_shape': [None, 256, 256, 3], 'dtype': 'float32', 'sparse': False, 'ragged': False, 'name': 'input_layer'}.
+
+Exception encountered: Unrecognized keyword arguments: ['batch_shape']
+2025-07-15 21:42:32,538 - ERROR - Error loading model with custom loader: Error when deserializing class 'Conv2D' using config={'name': 'conv2d', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None}, 'filters': 32, 'kernel_size': [3, 3], 'strides': [1, 1], 'padding': 'valid', 'data_format': 'channels_last', 'dilation_rate': [1, 1], 'groups': 1, 'activation': 'relu', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'kernel_regularizer': None, 'bias_regularizer': None, 'activity_regularizer': None, 'kernel_constraint': None, 'bias_constraint': None}.
+
+Exception encountered: Unknown dtype policy: 'DTypePolicy'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-07-15 21:42:32,538 - ERROR - Error loading models: Error when deserializing class 'Conv2D' using config={'name': 'conv2d', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None}, 'filters': 32, 'kernel_size': [3, 3], 'strides': [1, 1], 'padding': 'valid', 'data_format': 'channels_last', 'dilation_rate': [1, 1], 'groups': 1, 'activation': 'relu', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'kernel_regularizer': None, 'bias_regularizer': None, 'activity_regularizer': None, 'kernel_constraint': None, 'bias_constraint': None}.
+
+Exception encountered: Unknown dtype policy: 'DTypePolicy'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-07-15 21:42:32,538 - ERROR - Failed to load models: Error when deserializing class 'Conv2D' using config={'name': 'conv2d', 'trainable': True, 'dtype': {'module': 'keras', 'class_name': 'DTypePolicy', 'config': {'name': 'float32'}, 'registered_name': None}, 'filters': 32, 'kernel_size': [3, 3], 'strides': [1, 1], 'padding': 'valid', 'data_format': 'channels_last', 'dilation_rate': [1, 1], 'groups': 1, 'activation': 'relu', 'use_bias': True, 'kernel_initializer': {'module': 'keras.initializers', 'class_name': 'GlorotUniform', 'config': {'seed': None}, 'registered_name': None}, 'bias_initializer': {'module': 'keras.initializers', 'class_name': 'Zeros', 'config': {}, 'registered_name': None}, 'kernel_regularizer': None, 'bias_regularizer': None, 'activity_regularizer': None, 'kernel_constraint': None, 'bias_constraint': None}.
+
+Exception encountered: Unknown dtype policy: 'DTypePolicy'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-07-15 22:01:34,472 - ERROR - Error loading models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-15 22:01:34,472 - ERROR - Failed to load models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-15 22:09:44,454 - INFO - Application starting - loading models...
+2025-07-15 22:09:44,463 - INFO - Starting model loading process...
+2025-07-15 22:09:44,465 - INFO - Loading soil model...
+2025-07-15 22:09:54,160 - ERROR - Error loading models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+Traceback (most recent call last):
+  File "d:\agriculture project\smart-agriculture\smart-agriculture\app.py", line 66, in load_models
+    soil_model = joblib_load('models/soil_model.pkl')
+  File "C:\Users\kandr\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 749, in load
+    obj = _unpickle(
+  File "C:\Users\kandr\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+  File "C:\Users\kandr\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+  File "C:\Users\kandr\AppData\Local\Programs\Python\Python310\lib\site-packages\joblib\numpy_pickle.py", line 446, in load_build
+    Unpickler.load_build(self)
+  File "C:\Users\kandr\AppData\Local\Programs\Python\Python310\lib\pickle.py", line 1718, in load_build
+    setstate(state)
+  File "sklearn/tree/_tree.pyx", line 836, in sklearn.tree._tree.Tree.__setstate__
+  File "sklearn/tree/_tree.pyx", line 1542, in sklearn.tree._tree._check_node_ndarray
+ValueError: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-15 22:09:54,160 - CRITICAL - Fatal error during model loading: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-15 22:12:48,725 - ERROR - Error loading models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-15 22:12:48,726 - ERROR - Failed to load models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-15 22:13:13,195 - ERROR - Error loading models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2025-07-15 22:13:13,195 - ERROR - Failed to load models: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]

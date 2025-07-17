@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="alert alert-danger">
+        <h4>Error Processing Request</h4>
+        <p><strong>Error:</strong> {{ message }}</p>
+        {% if details %}
+        <div class="error-details mt-3">
+            <h5>Technical Details:</h5>
+            <code>{{ details }}</code>
+        </div>
+        {% endif %}
+    </div>
+    <a href="{{ url_for('main.disease_detection') }}" class="btn btn-primary">
+        Try Again
+    </a>
+</div>
+{% endblock %}
